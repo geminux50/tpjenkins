@@ -25,7 +25,7 @@ public class OperationTest extends TestCase {
     {
         Operation op = new Operation();
         int result = op.add(5, 5);
-        assertEquals("10", result);
+        assertEquals(10, result);
     }
     
     /**
@@ -34,7 +34,7 @@ public class OperationTest extends TestCase {
     public void testOperationSub()
     {
         Operation op = new Operation();
-        int result = op.add(8, 5);
-        assertEquals("3", result);
+        int result = op.sub(8, 5);
+        assertEquals(3, result);
     }
 }
