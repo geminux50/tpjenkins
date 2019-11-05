@@ -28,4 +28,19 @@ public class App
 		
 		System.out.println( "Field said: " + out + " from "+ip);
     }
+    
+    public static void main2( String[] args )
+    {
+        System.out.println( "Hello World!" );
+		
+		String[] fields = { "a","z","e","r","t","y"};
+		String out = "";
+		
+		for(int i=0; i<fields.length; i++)
+		{
+			out = out + fields[i];
+		}
+		
+		System.out.println( "Field said: " + out + " from "+ip);
+    }
 }
